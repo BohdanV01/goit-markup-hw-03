@@ -280,7 +280,7 @@ ul {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.li-2-1 img {
+.card-img2 {
     display: block;
     max-width: 100%;
     height: auto;
@@ -315,6 +315,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin: 0;
+    margin-bottom: 8px;
 }
 .op-p1 {
     font-weight: 400;

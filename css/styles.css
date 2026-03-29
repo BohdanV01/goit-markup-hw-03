@@ -25,7 +25,7 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
-.header .container {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -108,10 +108,16 @@ ul {
 .tel:focus {
     color: #404bbf;
 }
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
 .main-s {
     background: #2e2f42;
     margin: 0 auto;
-    padding: 190px;
+    padding: 190px 0;
 }
 .main-h1 {
     font-weight: 700;
@@ -138,7 +144,7 @@ ul {
     margin: 0;
     border: none;
 }
-.main-s .container {
+.hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -318,7 +324,7 @@ ul {
     margin: 0;
     padding: 100px 0;
 }
-.footer .container {
+.footer-container {
     display: flex;
     align-items: baseline;
 }

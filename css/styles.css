@@ -62,7 +62,7 @@ ul {
     margin: 0;
 }
 .li-m {
-    padding: 40px 0;
+    padding: 24px 0;
     text-decoration: none;
     list-style-type: none;
     font-weight: 500;
@@ -142,6 +142,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 48px;
 }
 .main-button:hover,
 .main-button:focus {
@@ -171,13 +172,14 @@ ul {
     display: flex; 
     justify-content: center;
     gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 .li-t-1 {
     display: flex;
     margin: 0;
     max-width: 264px;
     flex-direction: column;
-    align-items: center;
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
@@ -189,7 +191,6 @@ ul {
     line-height: 1.2;
     margin: 0;
     margin-bottom: 8px;
-    text-align: center;
 }
 .t-p-1 {
     font-weight: 400;
@@ -198,7 +199,6 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     margin: 0;
-    text-align: center;
 }
 
 .h2-ot {
@@ -232,6 +232,12 @@ ul {
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
 }
+.card-content {
+    padding: 32px 16px;
+    text-align: center;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .h3-mg-1 {
     text-align: center;
     font-weight: 500;
@@ -253,13 +259,14 @@ ul {
     padding: 120px 0;
 }
 .li-2-1 {
-    gap: 24px;
-    display: flex;
     flex-basis: calc((100% - 2 * 24px) / 3);
-    flex-direction: column;
-    padding: 32px 16px;
     box-sizing: border-box;
     flex-shrink: 0;
+}
+.portfolio-content {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .li-2-1 img {
     display: block;
@@ -274,6 +281,10 @@ ul {
     color: #2e2f42;
     line-height: 1.11;
     margin: 0;
+}
+.h2-ot,
+.h2-op {
+    margin-bottom: 72px;
 }
 .ul-li-mg {
     list-style-type: none;

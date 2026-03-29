@@ -144,12 +144,6 @@ ul {
     margin: 0;
     border: none;
 }
-.hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 48px;
-}
 .main-button:hover,
 .main-button:focus {
     background: #404bbf;
